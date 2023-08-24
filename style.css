@@ -1,0 +1,100 @@
+body{
+    background-color: #0EB042 ;
+}
+*{
+    margin:0;
+    padding:0;
+}
+nav{
+     font-family:sans-serif; 
+} 
+nav ul{
+    display:flex;
+    align-items: center;
+    list-style-type:none;
+    height:60pxpx; 
+    background-color: black;
+    color:white;
+}
+nav ul li{
+padding:0 18px;
+}
+.brand img{
+    padding:0 10px;
+}
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;    
+}
+.container{
+    min-height: 65vh;
+    background-color: black;
+    color:white;
+    font-family: sans-serif;
+    margin:23px auto;
+    width:90%;
+    display: flex;
+    border-radius:12px;
+    padding:34px;
+}
+.bottom{
+    position: sticky;
+    height:100px;
+    background-color: black;
+    color:white;
+    bottom:0;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    
+}
+.icons{
+    margin-top: 15px;
+}
+
+.icons i{
+    cursor: pointer;
+}
+#myProgressBar{
+    width:86vw;
+    cursor:pointer;
+}
+.songItem{
+    display:flex;
+    height:50px; 
+    width:80%;
+    margin: 24px 0;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 22px;
+    border-bottom: 1px solid white;
+    position:relative;
+}
+.songItemplay{
+    cursor: pointer;
+    display:flex;
+    align-items: center;
+    padding-right: 12px;
+    position: absolute;
+
+}
+
+.timestamp{
+    padding: 0 12px;;
+}
+.songname{
+   flex-grow:1;/*allow the name to take the space available*/
+   padding:0 12px;
+}
+.songinfo {
+    position:absolute;
+    left:7vw;
+    bottom:40%;/*adjust vertical positioning*/
+    transform:translateY(-50%);
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+
+}
